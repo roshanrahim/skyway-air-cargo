@@ -1,13 +1,18 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 27 July 2026 (evening)_
+_Last updated: 27 July 2026 (night)_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at https://roshanrahim.github.io/skyway-air-cargo/
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Round of owner-requested revisions completed (see implementation/05-content-updates.md):
-hero Earth + orbiting plane, 100+/2,000+ stats, "Our Most Shipped Countries" with flag images,
-icon-only Payments section, tracking simplified to a link to aramex.com/in/en.
+✅ Two rounds of owner revisions completed (implementation/05 and 06). Highlights of current state:
+hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
+(names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
+number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
+anchor in More menu · fuel-surcharge note on quote page.
+
+⚠️ Loose end: home blog preview still shows "Volumetric Weight Explained" linking to a deleted
+blog post — owner notified, awaiting decision.
 
 ## Owner's Stated Plan
 Owner chose to **go live first with placeholders**, then supply real content afterwards.

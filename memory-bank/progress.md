@@ -37,6 +37,19 @@
 - [x] Tracking simplified: AWB forms removed; all Track buttons link to https://www.aramex.com/in/en (clean URL)
 - [x] "Live Tracking" card removed from Why SKYWAY (now 3 cards)
 
+### Phase 5 — Owner Revisions Round 2 (27 July 2026)
+- [x] Countries served 100+ → **15+** site-wide
+- [x] "AWB number" → "tracking number" everywhere
+- [x] Perumbavoor added to pickup areas (home + FAQ)
+- [x] Blog trimmed to 3 posts; subtitles/taglines removed; bold "Shipping Advisories & News" heading on home
+- [x] Tracking page help cards removed
+- [x] Destinations final list: 16 flags, names only (US, UK, UAE, Ireland, Qatar, Kuwait, Oman, Germany, Switzerland, Canada, NZ, Africa, China, Singapore, Malaysia, RoW)
+- [x] "Shipping Made Simple": + Fast Follow-ups, + Quality Packaging & Damage-Free Shipping (5 cards)
+- [x] Nav "More" → Customer Testimonials ★ anchor link; Google reviews button removed
+- [x] Fuel-surcharge note on Rates & Quote
+- [x] CTA "Calculate Rates" → "Get a Quote"; footer link "Rate Calculator" → "Get Quote"
+- [ ] Loose end: home "Volumetric Weight Explained" preview card links to a deleted blog post — awaiting owner decision
+
 ## ⏳ Pending (waiting on owner)
 - [ ] Real phone + WhatsApp numbers (js/main.js CONFIG)
 - [ ] Real Aramex tariff (js/main.js RATES)

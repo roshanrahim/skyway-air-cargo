@@ -14,10 +14,10 @@ SKYWAY/
 ├── services.html         # All 8 services
 ├── quote.html            # Rate calculator + quote request form
 ├── tracking.html         # Links to official Aramex site (aramex.com/in/en)
-├── destinations.html     # "Our Most Shipped Countries" — 16 cards with flag images
+├── destinations.html     # "Our Most Shipped Countries" — 16 flag cards, names only
 ├── restricted-items.html # Prohibited / restricted / safe items
 ├── faq.html              # 11-question accordion
-├── blog.html             # 6 starter advisory posts
+├── blog.html             # 3 advisory posts (trimmed per owner)
 ├── contact.html          # Address, map embed, contact form
 ├── css/style.css         # Single stylesheet, CSS variables at top
 ├── js/main.js            # All site JS + CONFIG (phone/WhatsApp) + RATES table
