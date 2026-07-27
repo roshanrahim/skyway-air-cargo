@@ -53,16 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  /* Shipment tracking — opens Aramex official tracking with the AWB number */
-  document.querySelectorAll("form[data-track-form]").forEach(function (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var awb = form.querySelector("input").value.trim().replace(/\s+/g, "");
-      if (!awb) { alert("Please enter your AWB / tracking number."); return; }
-      window.open("https://www.aramex.com/us/en/track/results?ShipmentNumber=" + encodeURIComponent(awb), "_blank");
-    });
-  });
-
   /* ---- Rate calculator ---- */
   var calcForm = document.getElementById("rate-calc-form");
   if (calcForm) {
