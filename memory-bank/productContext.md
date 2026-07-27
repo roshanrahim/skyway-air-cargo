@@ -21,5 +21,5 @@
 
 ## Key Design Decisions
 - Every form submits through WhatsApp deep-links (`wa.me`) — no server, no email backend, replies land on the customer's phone.
-- Tracking hands off to official Aramex tracking (aramex.com) with the AWB pre-filled — authoritative data, zero maintenance.
+- Tracking hands off to the official Aramex India site (aramex.com/in/en) via a plain button — customers enter their AWB there; authoritative data, zero maintenance.
 - Photo placeholders deliberately labelled "replace with real photo" — real facility photos build far more trust than stock images in this industry.

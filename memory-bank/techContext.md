@@ -3,6 +3,7 @@
 ## Stack
 - **Pure static site** — plain HTML5 + CSS + vanilla JavaScript. No framework, no build step required, no backend.
 - **Fonts:** Google Fonts — Archivo Black (headings/logo wordmark) + Inter (body).
+- **External assets:** country flags load from flagcdn.com (free CDN); fonts from Google Fonts. Everything else is local.
 - **Logo:** inline SVG in every page header/footer + standalone file at `images/skyway-logo.svg`.
 
 ## File Layout
@@ -12,8 +13,8 @@ SKYWAY/
 ├── about.html            # About Us (story, team, licenses, process)
 ├── services.html         # All 8 services
 ├── quote.html            # Rate calculator + quote request form
-├── tracking.html         # AWB tracking (opens official Aramex tracking)
-├── destinations.html     # 16 destination cards with transit times
+├── tracking.html         # Links to official Aramex site (aramex.com/in/en)
+├── destinations.html     # "Our Most Shipped Countries" — 16 cards with flag images
 ├── restricted-items.html # Prohibited / restricted / safe items
 ├── faq.html              # 11-question accordion
 ├── blog.html             # 6 starter advisory posts
@@ -21,6 +22,7 @@ SKYWAY/
 ├── css/style.css         # Single stylesheet, CSS variables at top
 ├── js/main.js            # All site JS + CONFIG (phone/WhatsApp) + RATES table
 ├── images/skyway-logo.svg
+├── images/earth.jpg      # NASA Blue Marble (public domain) — hero globe
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```

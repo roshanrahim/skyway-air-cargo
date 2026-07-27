@@ -26,6 +26,17 @@
 ### Phase 3 — Documentation (27 July 2026)
 - [x] memory-bank/ + implementation/ folders, README
 
+### Phase 4 — Owner Revisions Round 1 (27 July 2026)
+- [x] Hero graphic → real Earth photo (NASA Blue Marble, `images/earth.jpg`), black space border clipped away
+- [x] Plane animates in an orbit around the Earth (SMIL; fades when passing behind)
+- [x] Hero button text → "Get a Quote" (red)
+- [x] Stats: 200+ → **100+ countries**, 10,000+ → **2,000+ shipments** (site-wide)
+- [x] Destinations → "**Our Most Shipped Countries**": transit days removed, real flag images (flagcdn.com)
+- [x] **Payments** section: icon-only round circle badges — GPay, PhonePe, UPI, Bank Transfer — one line
+- [x] Footer "We accept" payment line on all pages
+- [x] Tracking simplified: AWB forms removed; all Track buttons link to https://www.aramex.com/in/en (clean URL)
+- [x] "Live Tracking" card removed from Why SKYWAY (now 3 cards)
+
 ## ⏳ Pending (waiting on owner)
 - [ ] Real phone + WhatsApp numbers (js/main.js CONFIG)
 - [ ] Real Aramex tariff (js/main.js RATES)

@@ -1,10 +1,13 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 27 July 2026_
+_Last updated: 27 July 2026 (evening)_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at https://roshanrahim.github.io/skyway-air-cargo/
-✅ GitHub Pages hosting enabled, HTTPS enforced, auto-deploys on push to `main`.
+✅ GitHub Pages hosting, auto-deploys on push to `main`.
+✅ Round of owner-requested revisions completed (see implementation/05-content-updates.md):
+hero Earth + orbiting plane, 100+/2,000+ stats, "Our Most Shipped Countries" with flag images,
+icon-only Payments section, tracking simplified to a link to aramex.com/in/en.
 
 ## Owner's Stated Plan
 Owner chose to **go live first with placeholders**, then supply real content afterwards.
@@ -28,3 +31,9 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 - Rate calculator has a visible note that rates are samples
 - Gallery cards are styled placeholders with "replace with real photo" captions
 - Testimonials are representative samples, not real customer quotes — replace with real Google/JustDial reviews
+
+## Owner Preferences Learned (apply to future edits)
+- Prefers clean URLs — no ad-tracking query strings (asked for "neat" links)
+- Prefers icon-only, compact visual elements over text-heavy sections (payments row)
+- Wants realistic imagery (real Earth photo) over abstract illustrations
+- Conservative, honest numbers on stats (chose 100+ countries / 2,000+ shipments)

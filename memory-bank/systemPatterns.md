@@ -13,7 +13,6 @@
 | `data-phone-text` | text becomes formatted phone number |
 | `data-wa-link` | href becomes `wa.me/<SKYWAY_WHATSAPP>?text=...` |
 | `data-wa-msg="..."` | custom pre-filled WhatsApp message |
-| `data-track-form` | form submit opens Aramex tracking with the entered AWB |
 
 **Rule:** never hard-code the phone/WhatsApp number in HTML — always use these attributes so one config change updates the whole site.
 
@@ -31,3 +30,9 @@ No backend: every form composes a structured message and opens WhatsApp (`window
 1. Chargeable weight = max(actual, L×W×H÷5000), rounded **up** to nearest 0.5 kg
 2. Price = `first` (first 0.5 kg) + additional 0.5 kg units × `addl`
 3. Result box shows price + chargeable weight + transit days, with a WhatsApp button that pre-fills the whole estimate for final confirmation
+
+## Tracking Pattern
+No on-site tracking form: all "Track" buttons are plain links to the official Aramex India site (https://www.aramex.com/in/en, clean URL, no query params) opening in a new tab.
+
+## Payment Icons Pattern
+Home page "Payments" section: `.pay-icons` row of `.pay-circle` round badges (social-media-icon style), icons only, no captions — Google Pay (white/G), PhonePe (purple/पे), UPI (white/chevrons), Bank Transfer (navy/bank glyph). Single line at all widths (flex-wrap: nowrap).
