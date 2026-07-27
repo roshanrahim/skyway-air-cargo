@@ -332,6 +332,16 @@ nav.main-nav a.active { color: var(--red); }
 .license-chip strong { display: block; color: var(--navy); }
 .license-chip span { color: var(--muted); font-size: .82rem; }
 
+/* ---------- Payment icons ---------- */
+.pay-icons { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+.pay-tile {
+  width: 120px; height: 76px; background: #fff; border: 1px solid var(--line);
+  border-radius: 14px; display: flex; align-items: center; justify-content: center;
+  box-shadow: var(--shadow); transition: transform .2s;
+}
+.pay-tile:hover { transform: translateY(-4px); }
+.pay-tile svg { height: 38px; width: auto; }
+
 /* ---------- Footer ---------- */
 footer.site-footer { background: var(--navy); color: #aab6cc; padding: 64px 0 0; font-size: .9rem; }
 .footer-grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1.2fr; gap: 36px; padding-bottom: 44px; }
