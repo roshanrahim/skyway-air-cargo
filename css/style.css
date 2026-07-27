@@ -333,14 +333,19 @@ nav.main-nav a.active { color: var(--red); }
 .license-chip span { color: var(--muted); font-size: .82rem; }
 
 /* ---------- Payment icons ---------- */
-.pay-icons { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+.pay-icons { display: flex; gap: 14px; justify-content: center; flex-wrap: nowrap; margin-top: 18px; }
 .pay-tile {
-  width: 120px; height: 76px; background: #fff; border: 1px solid var(--line);
-  border-radius: 14px; display: flex; align-items: center; justify-content: center;
+  width: 78px; height: 50px; flex: none; background: #fff; border: 1px solid var(--line);
+  border-radius: 10px; display: flex; align-items: center; justify-content: center;
   box-shadow: var(--shadow); transition: transform .2s;
 }
-.pay-tile:hover { transform: translateY(-4px); }
-.pay-tile svg { height: 38px; width: auto; }
+.pay-tile:hover { transform: translateY(-3px); }
+.pay-tile svg { height: 24px; width: auto; }
+@media (max-width: 420px) {
+  .pay-icons { gap: 8px; }
+  .pay-tile { width: 68px; height: 44px; }
+  .pay-tile svg { height: 20px; }
+}
 
 /* ---------- Footer ---------- */
 footer.site-footer { background: var(--navy); color: #aab6cc; padding: 64px 0 0; font-size: .9rem; }
