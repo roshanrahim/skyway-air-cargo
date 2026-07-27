@@ -196,6 +196,10 @@ nav.main-nav a.active { color: var(--red); }
   height: 110px; display: flex; align-items: center; justify-content: center;
   font-size: 3rem; background: linear-gradient(135deg, var(--navy), var(--navy-2));
 }
+.dest-flag img {
+  width: 88px; height: auto; border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .4); border: 2px solid rgba(255, 255, 255, .25);
+}
 .dest-body { padding: 20px 22px; }
 .dest-body h3 { font-size: 1.02rem; margin-bottom: 6px; }
 .dest-body .transit { color: var(--muted); font-size: .85rem; }
