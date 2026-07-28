@@ -51,8 +51,8 @@
 - [ ] Loose end: home "Volumetric Weight Explained" preview card links to a deleted blog post — awaiting owner decision
 
 ## ⏳ Pending (waiting on owner)
-- [ ] Real phone + WhatsApp numbers (js/main.js CONFIG)
-- [ ] Real Aramex tariff (js/main.js RATES)
+- [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
+- [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
 - [ ] Real photos (facility, packing, team)
 - [ ] Real license numbers (GSTIN, reg. no., Aramex agent code)
 - [ ] Real business email
