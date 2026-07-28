@@ -404,3 +404,88 @@ footer.site-footer { background: var(--navy); color: #aab6cc; padding: 64px 0 0;
   .footer-grid { grid-template-columns: 1fr; }
   .logo-link svg { height: 42px; }
 }
+
+/* ============================================================
+   Premium polish layer
+   ============================================================ */
+
+::selection { background: var(--red); color: #fff; }
+
+/* Typography refinement */
+h1, h2, h3 { letter-spacing: -0.015em; }
+.section-title { position: relative; padding-bottom: 16px; }
+.section-title::after {
+  content: ""; position: absolute; left: 0; bottom: 0;
+  width: 52px; height: 4px; border-radius: 4px;
+  background: linear-gradient(90deg, var(--red), var(--gold));
+}
+.center .section-title::after { left: 50%; transform: translateX(-50%); }
+
+/* Buttons — subtle gradient + lift */
+.btn { letter-spacing: .01em; }
+.btn-red { background: linear-gradient(135deg, #f11423, var(--red-dark)); }
+.btn-red:hover { box-shadow: 0 12px 26px rgba(227, 6, 19, .38); }
+.btn-navy { background: linear-gradient(135deg, #23324e, var(--navy)); }
+
+/* Cards — layered shadows, red reveal on hover */
+.card, .dest-card, .testi, .post-card {
+  box-shadow: 0 2px 6px rgba(20, 28, 43, .05), 0 12px 32px rgba(20, 28, 43, .07);
+}
+.card { border-top: 3px solid transparent; }
+.card:hover {
+  border-top-color: var(--red);
+  box-shadow: 0 4px 10px rgba(20, 28, 43, .06), 0 22px 48px rgba(20, 28, 43, .13);
+}
+.dest-card:hover, .post-card:hover, .testi:hover {
+  box-shadow: 0 4px 10px rgba(20, 28, 43, .06), 0 22px 48px rgba(20, 28, 43, .13);
+}
+.card .icon { transition: transform .25s ease; }
+.card:hover .icon { transform: scale(1.08) rotate(-3deg); }
+
+/* Nav — animated underline */
+nav.main-nav a { position: relative; }
+nav.main-nav > ul > li > a:not(.active)::after {
+  content: ""; position: absolute; left: 13px; right: 100%; bottom: 6px;
+  height: 2px; background: var(--red); border-radius: 2px; transition: right .25s ease;
+}
+nav.main-nav > ul > li > a:not(.active):hover::after { right: 13px; }
+nav.main-nav a:hover { background: transparent; }
+
+/* Hero refinement */
+.hero-badge { backdrop-filter: blur(6px); box-shadow: inset 0 1px 0 rgba(255,255,255,.12); }
+.hero h1 { text-shadow: 0 2px 24px rgba(0, 0, 0, .25); }
+
+/* Quicktrack + form cards — finer edge */
+.quicktrack, .form-card { box-shadow: 0 2px 8px rgba(20,28,43,.06), 0 24px 60px rgba(20,28,43,.14); }
+
+/* Stats — premium numerals */
+.stat { border-bottom: 3px solid transparent; transition: border-color .25s, transform .25s; }
+.stat:hover { border-bottom-color: var(--gold); transform: translateY(-3px); }
+
+/* CTA band — richer gradient + sheen */
+.cta-band { background: linear-gradient(120deg, #f11423 0%, var(--red) 45%, #8a060f 100%); position: relative; overflow: hidden; }
+.cta-band::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 80% at 80% 0%, rgba(255,255,255,.10), transparent 60%);
+  pointer-events: none;
+}
+.cta-band .container { position: relative; }
+
+/* Footer — accent hairline on top */
+footer.site-footer { position: relative; }
+footer.site-footer::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--red), var(--gold), var(--red));
+}
+
+/* Page hero — subtle depth */
+.page-hero { position: relative; overflow: hidden; }
+.page-hero::after {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 50% 60% at 90% 10%, rgba(227,6,19,.18), transparent 60%);
+  pointer-events: none;
+}
+.page-hero .container { position: relative; z-index: 1; }
+
+/* Smooth global transitions */
+a, .btn, .card, .dest-card, .post-card, .testi, .pay-circle { transition-timing-function: cubic-bezier(.2,.7,.3,1); }
