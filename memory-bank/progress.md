@@ -50,6 +50,14 @@
 - [x] CTA "Calculate Rates" → "Get a Quote"; footer link "Rate Calculator" → "Get Quote"
 - [ ] Loose end: home "Volumetric Weight Explained" preview card links to a deleted blog post — awaiting owner decision
 
+### Phase 6 — Owner Revisions Round 3 (28 July 2026)
+- [x] Home/services service headings synced; Customs Clearance card removed from both
+- [x] "Professional Packing" rename + new descriptions on both pages
+- [x] Premium design polish layer (accent bars, gradients, layered shadows, hover effects)
+- [x] Rate calculator removed; quote page = single "Request a Quote" WhatsApp form (+ Place of Contact field)
+- [x] Real phone/WhatsApp number wired site-wide: +91 96454 87929
+- [x] WhatsApp quote message includes all 7 owner-specified fields (verified in browser)
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)

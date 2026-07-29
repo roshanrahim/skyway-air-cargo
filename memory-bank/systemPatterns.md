@@ -26,10 +26,10 @@
 ## Forms Pattern
 No backend: every form composes a structured message and opens WhatsApp (`window.open('https://wa.me/...')`). Success feedback = revealing a hidden `✓ Opening WhatsApp` paragraph.
 
-## Rate Calculator Logic (js/main.js)
-1. Chargeable weight = max(actual, L×W×H÷5000), rounded **up** to nearest 0.5 kg
-2. Price = `first` (first 0.5 kg) + additional 0.5 kg units × `addl`
-3. Result box shows price + chargeable weight + transit days, with a WhatsApp button that pre-fills the whole estimate for final confirmation
+## Quote Form (quote.html → js/main.js)
+Single "Request a Quote" form (rate calculator was removed 28 Jul 2026). Fields: name, phone/WhatsApp,
+destination country, place of contact, approx. weight, what-you-are-sending select, anything-else.
+Submit opens a wa.me chat with all 7 fields labelled exactly as the owner specified.
 
 ## Tracking Pattern
 No on-site tracking form: all "Track" buttons are plain links to the official Aramex India site (https://www.aramex.com/in/en, clean URL, no query params) opening in a new tab.

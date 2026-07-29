@@ -12,7 +12,7 @@ SKYWAY/
 ├── index.html            # Home
 ├── about.html            # About Us (story, team, licenses, process)
 ├── services.html         # All 8 services
-├── quote.html            # Rate calculator + quote request form
+├── quote.html            # "Request a Quote" WhatsApp form (calculator removed)
 ├── tracking.html         # Links to official Aramex site (aramex.com/in/en)
 ├── destinations.html     # "Our Most Shipped Countries" — 16 flag cards, names only
 ├── restricted-items.html # Prohibited / restricted / safe items
@@ -20,7 +20,7 @@ SKYWAY/
 ├── blog.html             # 3 advisory posts (trimmed per owner)
 ├── contact.html          # Address, map embed, contact form
 ├── css/style.css         # Single stylesheet, CSS variables at top
-├── js/main.js            # All site JS + CONFIG (phone/WhatsApp) + RATES table
+├── js/main.js            # All site JS + CONFIG (real phone/WhatsApp: +919645487929)
 ├── images/skyway-logo.svg
 ├── images/earth.jpg      # NASA Blue Marble (public domain) — hero globe
 ├── memory-bank/          # Project knowledge (this folder)
