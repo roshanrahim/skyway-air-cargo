@@ -5,6 +5,7 @@
 /* ---- CONFIG: update these two numbers when you have the real ones ---- */
 var SKYWAY_PHONE = "+919645487929";
 var SKYWAY_WHATSAPP = "919645487929";
+var SKYWAY_PHONE2 = "+918089390077";
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -14,6 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   document.querySelectorAll("[data-phone-text]").forEach(function (el) {
     el.textContent = SKYWAY_PHONE.replace("+91", "+91 ");
+  });
+  document.querySelectorAll("[data-phone2-link]").forEach(function (a) {
+    a.href = "tel:" + SKYWAY_PHONE2;
+  });
+  document.querySelectorAll("[data-phone2-text]").forEach(function (el) {
+    el.textContent = SKYWAY_PHONE2.replace("+91", "+91 ");
   });
   document.querySelectorAll("[data-wa-link]").forEach(function (a) {
     var msg = a.getAttribute("data-wa-msg") || "Hi SKYWAY! I need help with a shipment.";
