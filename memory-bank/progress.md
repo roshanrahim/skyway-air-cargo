@@ -58,6 +58,15 @@
 - [x] Real phone/WhatsApp number wired site-wide: +91 96454 87929
 - [x] WhatsApp quote message includes all 7 owner-specified fields (verified in browser)
 
+### Phase 7 — Owner Revisions Round 4 (29 July 2026)
+- [x] REBRAND: "Authorised Agent of Aramex India Pvt and UPS" site-wide; Aramex and UPS network wording
+- [x] 50+ countries everywhere; hero tagline "Cochin, Kerala"; hero accent red
+- [x] Real photos on all 7 services cards (local Unsplash images); later shrunk to short banners
+- [x] Food card 2×2 collage: spices (produce cropped out via CSS zoom) + packed foods + tea + coffee
+- [x] Restricted items overhaul (electronics/perfume/sharps prohibited; medicines 3-month+invoice; FSSAI wording; safe list additions)
+- [x] FAQ trimmed to 9 Qs; tracking-number wording; More Services card on home
+- [x] Service copy edits: visas/customs mentions removed, new baggage & food descriptions
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)

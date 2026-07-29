@@ -1,7 +1,7 @@
 # Project Brief — SKYWAY Air Cargo & Courier Services Website
 
 ## What This Project Is
-A complete business website for **SKYWAY Air Cargo and Courier Services**, an authorised agent of **Aramex Delivery Unlimited**, based in Alangad, Ernakulam, Kerala.
+A complete business website for **SKYWAY Air Cargo and Courier Services**, an authorised agent of **Aramex India Pvt and UPS**, based in Alangad, Ernakulam (Cochin), Kerala.
 
 ## Core Goals
 1. **Build trust** — customers hand over valuable goods; the site must look professional and verified.
@@ -10,7 +10,7 @@ A complete business website for **SKYWAY Air Cargo and Courier Services**, an au
 
 ## Business Facts (source: JustDial verified listing)
 - **Name:** SKYWAY Air Cargo and Courier Services
-- **Status:** Authorised Agent of Aramex Delivery Unlimited
+- **Status:** Authorised Agent of Aramex India Pvt and UPS (wording per owner, 29 Jul 2026)
 - **Address:** First Floor, V R Complex, Near UC College, Aluva Kottappuram, Alangad, Ernakulam, Kerala — 683511
 - **Hours:** Open 24 hours, 7 days a week
 - **Established:** 2021

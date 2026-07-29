@@ -1,16 +1,18 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 28 July 2026_
+_Last updated: 29 July 2026_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at https://roshanrahim.github.io/skyway-air-cargo/
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Three rounds of owner revisions completed (implementation/05–07). Highlights of current state:
+✅ Four rounds of owner revisions completed (implementation/05–08). Highlights of current state:
 hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
 (names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
 number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
 anchor in More menu · quote page = single "Request a Quote" WhatsApp form (no calculator) ·
-REAL phone/WhatsApp live: +91 96454 87929 · premium design polish layer in CSS.
+REAL phone/WhatsApp live: +91 96454 87929 · premium design polish layer in CSS ·
+branding is now "Authorised Agent of Aramex India Pvt and UPS" · 50+ countries · Cochin, Kerala ·
+services page has real photos (food card is a 2×2 collage).
 
 ⚠️ Loose end: home blog preview still shows "Volumetric Weight Explained" linking to a deleted
 blog post — owner notified, awaiting decision.

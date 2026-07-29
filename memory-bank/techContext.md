@@ -23,6 +23,7 @@ SKYWAY/
 ├── js/main.js            # All site JS + CONFIG (real phone/WhatsApp: +919645487929)
 ├── images/skyway-logo.svg
 ├── images/earth.jpg      # NASA Blue Marble (public domain) — hero globe
+├── images/services/      # 10 Unsplash photos for services cards (incl. food collage tiles)
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```
