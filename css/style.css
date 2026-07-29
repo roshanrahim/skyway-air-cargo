@@ -492,8 +492,13 @@ a, .btn, .card, .dest-card, .post-card, .testi, .pay-circle { transition-timing-
 
 /* ---------- Service card photos ---------- */
 .svc-img {
-  margin: -30px -26px 20px; overflow: hidden; aspect-ratio: 16/9;
+  margin: -30px -26px 20px; overflow: hidden; aspect-ratio: 2.3/1;
   border-radius: calc(var(--radius) - 3px) calc(var(--radius) - 3px) 0 0;
 }
+.svc-grid { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 3px; background: #fff; }
+.svc-grid span { overflow: hidden; display: block; }
+.svc-grid img { width: 100%; height: 100%; }
+.svc-zoom { transform: scale(2.1) translateX(-2%); }
+.card:hover .svc-zoom { transform: scale(2.15) translateX(-2%); }
 .svc-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s ease; }
 .card:hover .svc-img img { transform: scale(1.06); }
