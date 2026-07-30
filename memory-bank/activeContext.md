@@ -1,18 +1,20 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 29 July 2026_
+_Last updated: 30 July 2026_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at https://roshanrahim.github.io/skyway-air-cargo/
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Four rounds of owner revisions completed (implementation/05–08). Highlights of current state:
+✅ Five rounds of owner revisions completed (implementation/05–09). Highlights of current state:
 hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
 (names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
 number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
 anchor in More menu · quote page = single "Request a Quote" WhatsApp form (no calculator) ·
 REAL phone/WhatsApp live: +91 96454 87929 · premium design polish layer in CSS ·
 branding is now "Authorised Agent of Aramex India Pvt and UPS" · 50+ countries · Cochin, Kerala ·
-services page has real photos (food card is a 2×2 collage).
+services page has real photos (food card is a 2×2 collage) · two labeled office addresses
+(Main: V R Complex, Aluva Kottappuram; Branch: Chirangara, Malikampeedika) · second phone
++91 80893 90077 · real GSTIN 32ALCPL6861B1ZH in About chip and all footers.
 
 ⚠️ Loose end: home blog preview still shows "Volumetric Weight Explained" linking to a deleted
 blog post — owner notified, awaiting decision.
@@ -25,7 +27,7 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 2. ~~WhatsApp number~~ ✅ DONE — same number
 3. ~~Rate tariff~~ — no longer needed: owner removed the rate calculator; quote page is a WhatsApp form only
 4. **Photos** — office exterior/interior, packing process, team → replace `.ph-img` placeholder cards (home, about)
-5. **License numbers** — GSTIN, Shop & Establishment reg. no., Aramex agent code → footer (all pages) + about.html license chips
+5. ~~GSTIN~~ ✅ DONE — 32ALCPL6861B1ZH (30 Jul 2026); still pending: Aramex agent code (about.html chip shows AXXXXX)
 6. **Business email** → replace `info@skywaycargo.in` placeholder (footer + contact page)
 
 ## Next Steps After Content Swap
@@ -34,7 +36,6 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 - Verify Aramex franchise agreement wording rules ("Authorised Agent" vs "franchise")
 
 ## Known Placeholders Currently Visible on the Live Site
-- Footer shows `GSTIN: 32XXXXXXXXXXXZX | Reg. No: KL/ERN/2021/XXXXX` with a "(replace with actual)" note
 - Gallery cards are styled placeholders with "replace with real photo" captions
 - Testimonials are representative samples, not real customer quotes — replace with real Google/JustDial reviews
 

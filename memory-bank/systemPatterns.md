@@ -11,6 +11,7 @@
 |---|---|
 | `data-phone-link` | href becomes `tel:<SKYWAY_PHONE>` |
 | `data-phone-text` | text becomes formatted phone number |
+| `data-phone2-link` / `data-phone2-text` | same, for second number `SKYWAY_PHONE2` |
 | `data-wa-link` | href becomes `wa.me/<SKYWAY_WHATSAPP>?text=...` |
 | `data-wa-msg="..."` | custom pre-filled WhatsApp message |
 

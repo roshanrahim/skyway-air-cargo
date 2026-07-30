@@ -67,11 +67,18 @@
 - [x] FAQ trimmed to 9 Qs; tracking-number wording; More Services card on home
 - [x] Service copy edits: visas/customs mentions removed, new baggage & food descriptions
 
+### Phase 8 — Owner Revisions Round 5 (29–30 July 2026)
+- [x] Two labeled addresses: Main Office (V R Complex, Aluva Kottappuram) + Branch Office (Chirangara, Malikampeedika)
+- [x] Second phone number +91 80893 90077 (topbar, footer, contact; SKYWAY_PHONE2 / data-phone2-* pattern)
+- [x] Real GSTIN 32ALCPL6861B1ZH (About chip + all footers); reg-no placeholder removed
+- [x] Shop & Establishment chip removed from About
+- [x] Contact hours: public-holidays line removed
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
 - [ ] Real photos (facility, packing, team)
-- [ ] Real license numbers (GSTIN, reg. no., Aramex agent code)
+- [x] GSTIN done (32ALCPL6861B1ZH, 30 Jul 2026) — still pending: Aramex agent code on About chip (AXXXXX)
 - [ ] Real business email
 - [ ] Real customer testimonials
 

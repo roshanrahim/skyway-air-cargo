@@ -11,7 +11,10 @@ A complete business website for **SKYWAY Air Cargo and Courier Services**, an au
 ## Business Facts (source: JustDial verified listing)
 - **Name:** SKYWAY Air Cargo and Courier Services
 - **Status:** Authorised Agent of Aramex India Pvt and UPS (wording per owner, 29 Jul 2026)
-- **Address:** First Floor, V R Complex, Near UC College, Aluva Kottappuram, Alangad, Ernakulam, Kerala — 683511
+- **Main Office:** First Floor, V R Complex, Near UC College, Aluva Kottappuram, Ernakulam, Kerala – 683511
+- **Branch Office:** Chirangara, Malikampeedika, Alangad, Ernakulam, Kerala – 683511
+- **Phones:** +91 96454 87929 (primary, also WhatsApp) · +91 80893 90077
+- **GSTIN:** 32ALCPL6861B1ZH
 - **Hours:** Open 24 hours, 7 days a week
 - **Established:** 2021
 - **Rating:** 4.5★ (21 ratings, JustDial verified)
