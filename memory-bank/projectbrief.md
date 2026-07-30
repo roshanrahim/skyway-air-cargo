@@ -21,7 +21,7 @@ A complete business website for **SKYWAY Air Cargo and Courier Services**, an au
 - **Services:** Commercial courier, corporate courier, perishable goods, international air cargo
 
 ## Live URLs
-- **Website:** https://roshanrahim.github.io/skyway-air-cargo/
+- **Website:** https://roshanrahim.github.io/skyway-air-cargo/ (custom domain **skywayaircargo.in** connecting — will become primary)
 - **Repository:** https://github.com/roshanrahim/skyway-air-cargo
 
 ## Brand Requirements (from owner)

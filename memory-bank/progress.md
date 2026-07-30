@@ -74,6 +74,12 @@
 - [x] Shop & Establishment chip removed from About
 - [x] Contact hours: public-holidays line removed
 
+### Phase 9 — Custom Domain (30 July 2026) 🔄 IN PROGRESS
+- [x] Owner purchased **skywayaircargo.in** (GoDaddy India)
+- [x] CNAME file committed; GitHub Pages custom domain set via API
+- [ ] Owner adds 4 A records + www CNAME in GoDaddy DNS (monitor watching for propagation)
+- [ ] Enforce HTTPS after cert provisions; verify apex + www
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
@@ -83,7 +89,7 @@
 - [ ] Real customer testimonials
 
 ## 🔮 Planned / Ideas
-- [ ] Custom domain (skywaycargo.in) + CNAME on GitHub Pages
+- [x] Custom domain — skywayaircargo.in purchased; connection in progress (see Phase 9)
 - [ ] Google Business Profile link-up
 - [ ] Per-country SEO landing pages ("Cargo to UAE from Kochi", etc.)
 - [ ] Malayalam language toggle

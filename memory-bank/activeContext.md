@@ -1,6 +1,6 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 30 July 2026_
+_Last updated: 30 July 2026 (domain day)_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at https://roshanrahim.github.io/skyway-air-cargo/
@@ -18,6 +18,12 @@ services page has real photos (food card is a 2×2 collage) · two labeled offic
 
 ⚠️ Loose end: home blog preview still shows "Volumetric Weight Explained" linking to a deleted
 blog post — owner notified, awaiting decision.
+
+## 🔄 Active Task: Custom Domain
+Owner bought **skywayaircargo.in** on GoDaddy India. GitHub side done (CNAME file + Pages cname).
+WAITING: owner must add 4 GitHub Pages A records (185.199.108–111.153) + www CNAME →
+roshanrahim.github.io in GoDaddy DNS. Then: enforce HTTPS, verify, update doc URLs.
+Full runbook: implementation/10-custom-domain.md
 
 ## Owner's Stated Plan
 Owner chose to **go live first with placeholders**, then supply real content afterwards.
