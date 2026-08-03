@@ -80,10 +80,19 @@
 - [x] Owner added 4 A records + www CNAME in GoDaddy DNS (verified 3 Aug)
 - [x] HTTPS enforced; apex 200, www + http 301-redirect correctly (3 Aug)
 
+### Phase 10 — Partner Badges & Founders (3 August 2026)
+- [x] Official Aramex + UPS logo badge component; placed in hero, About (large), Contact (below form), footer (transparent, left-aligned)
+- [x] Aramex flag style: white wordmark on red chip (CSS filter) — matches owner's reference
+- [x] Top-bar text badges removed (all pages)
+- [x] REAL founders feature on About: circular photo, Abdul Latheef & Sulthana, owner's description
+- [x] Photo retouch: shirt emblem removed (PIL inpaint)
+- [x] Home gallery team tile → real founders photo
+- [x] HTTPS + custom domain fully live (Phase 9 closed)
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
-- [ ] Real photos (facility, packing, team)
+- [ ] Real photos: facility + packing still pending (team/founders DONE 3 Aug)
 - [x] GSTIN done (32ALCPL6861B1ZH, 30 Jul 2026) — still pending: Aramex agent code on About chip (AXXXXX)
 - [ ] Real business email
 - [ ] Real customer testimonials

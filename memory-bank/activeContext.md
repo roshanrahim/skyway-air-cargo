@@ -1,17 +1,17 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 30 July 2026 (domain day)_
+_Last updated: 3 August 2026_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at **https://skywayaircargo.in**
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Five rounds of owner revisions completed (implementation/05–09). Highlights of current state:
+✅ Six rounds of owner revisions completed (implementation/05–11). Highlights of current state:
 hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
 (names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
 number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
 anchor in More menu · quote page = single "Request a Quote" WhatsApp form (no calculator) ·
 REAL phone/WhatsApp live: +91 96454 87929 · premium design polish layer in CSS ·
-branding is now "Authorised Agent of Aramex India Pvt and UPS" · 50+ countries · Cochin, Kerala ·
+official Aramex (red-box flag style) + UPS logo badges in hero/About/Contact/footer · REAL founders feature on About (photo + story) · branding "Authorised Agent of Aramex India Pvt and UPS" · 50+ countries · Cochin, Kerala ·
 services page has real photos (food card is a 2×2 collage) · two labeled office addresses
 (Main: V R Complex, Aluva Kottappuram; Branch: Chirangara, Malikampeedika) · second phone
 +91 80893 90077 · real GSTIN 32ALCPL6861B1ZH in About chip and all footers.
@@ -30,7 +30,7 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 1. ~~Phone number~~ ✅ DONE — +91 96454 87929 (28 Jul 2026)
 2. ~~WhatsApp number~~ ✅ DONE — same number
 3. ~~Rate tariff~~ — no longer needed: owner removed the rate calculator; quote page is a WhatsApp form only
-4. **Photos** — office exterior/interior, packing process, team → replace `.ph-img` placeholder cards (home, about)
+4. **Photos** — office + packing still placeholder (home gallery 2 tiles, About story photo); founders/team photo DONE
 5. ~~GSTIN~~ ✅ DONE — 32ALCPL6861B1ZH (30 Jul 2026); still pending: Aramex agent code (about.html chip shows AXXXXX)
 6. **Business email** → replace `info@skywaycargo.in` placeholder (footer + contact page)
 

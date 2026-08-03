@@ -24,6 +24,8 @@ SKYWAY/
 ├── images/skyway-logo.svg
 ├── images/earth.jpg      # NASA Blue Marble (public domain) — hero globe
 ├── images/services/      # 10 Unsplash photos for services cards (incl. food collage tiles)
+├── images/partners/      # official Aramex + UPS logos (badge component)
+├── images/team/          # founders.jpg — real photo (emblem retouched out)
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```
