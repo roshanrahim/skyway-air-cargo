@@ -30,7 +30,7 @@ SKYWAY/
 
 ## Hosting & Deployment
 - **Host:** GitHub Pages (free, HTTPS enforced)
-- **Live URL:** https://roshanrahim.github.io/skyway-air-cargo/ → custom domain **skywayaircargo.in** (GoDaddy, DNS pending; CNAME file in repo root)
+- **Live URL:** **https://skywayaircargo.in** (HTTPS enforced; GoDaddy DNS → GitHub Pages; CNAME file in repo root; github.io URL redirects)
 - **Repo:** github.com/roshanrahim/skyway-air-cargo (branch `main`, root path)
 - **Deploy process:** commit → `git push` → Pages rebuilds automatically in ~1 minute. No CI config needed (legacy Pages build).
 

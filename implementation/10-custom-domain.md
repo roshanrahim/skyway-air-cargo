@@ -1,4 +1,4 @@
-# Implementation 10 — Custom Domain skywayaircargo.in 🔄 IN PROGRESS
+# Implementation 10 — Custom Domain skywayaircargo.in ✅ COMPLETE
 
 **Date:** 30 July 2026
 
@@ -13,7 +13,7 @@
 - `CNAME` file (containing `skywayaircargo.in`) committed to repo root (commit `ab033d4`)
 - Pages custom domain set via API: `gh api repos/.../pages -X PUT -f cname=skywayaircargo.in`
 
-## GoDaddy DNS Side ⏳ WAITING ON OWNER
+## GoDaddy DNS Side ✅ DONE (owner added records 3 Aug 2026)
 Records the owner must add in GoDaddy → Manage DNS (delete the "Parked" A record first):
 
 | Type | Name | Value |
@@ -26,10 +26,10 @@ Records the owner must add in GoDaddy → Manage DNS (delete the "Parked" A reco
 
 A persistent monitor is polling `dig @8.8.8.8` every 60s for the A records.
 
-## Remaining Steps (after DNS resolves)
-1. Wait for GitHub to verify DNS + auto-provision the TLS certificate (minutes to ~1 hour)
-2. Enforce HTTPS: `gh api repos/roshanrahim/skyway-air-cargo/pages -X PUT -F https_enforced=true`
-3. Verify https://skywayaircargo.in and https://www.skywayaircargo.in both load with padlock
-4. Update README + memory-bank live URLs; old github.io URL will 301-redirect automatically
-5. Suggested follow-ups: Google Search Console for the new domain; update JustDial/Google
-   Business Profile links; print domain on visiting cards
+## Completion (3 Aug 2026)
+- Cert initially stuck in "provisioning" — fixed by removing/re-adding the Pages cname (state
+  moved to authorization_pending, then approved)
+- HTTPS enforced via API; verified: apex 200 over https, www 301→apex, http 301→https
+- **Primary URL is now https://skywayaircargo.in** (github.io URL 301-redirects)
+- Suggested follow-ups: Google Search Console; update JustDial/Google Business Profile links;
+  visiting cards with the new domain

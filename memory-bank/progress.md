@@ -74,11 +74,11 @@
 - [x] Shop & Establishment chip removed from About
 - [x] Contact hours: public-holidays line removed
 
-### Phase 9 — Custom Domain (30 July 2026) 🔄 IN PROGRESS
+### Phase 9 — Custom Domain ✅ COMPLETE (30 Jul – 3 Aug 2026)
 - [x] Owner purchased **skywayaircargo.in** (GoDaddy India)
 - [x] CNAME file committed; GitHub Pages custom domain set via API
-- [ ] Owner adds 4 A records + www CNAME in GoDaddy DNS (monitor watching for propagation)
-- [ ] Enforce HTTPS after cert provisions; verify apex + www
+- [x] Owner added 4 A records + www CNAME in GoDaddy DNS (verified 3 Aug)
+- [x] HTTPS enforced; apex 200, www + http 301-redirect correctly (3 Aug)
 
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
