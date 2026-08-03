@@ -505,23 +505,23 @@ a, .btn, .card, .dest-card, .post-card, .testi, .pay-circle { transition-timing-
 
 /* ---------- Partner logo badge (Aramex + UPS) ---------- */
 .partner-badge {
-  display: inline-flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;
-  background: #fff; border-radius: 16px; padding: 14px 28px;
-  box-shadow: 0 12px 34px rgba(20, 28, 43, .28);
+  display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: center;
+  background: #fff; border-radius: 40px; padding: 8px 18px;
+  box-shadow: 0 8px 24px rgba(20, 28, 43, .25);
 }
 .partner-badge .pb-label {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase;
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: .68rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase;
   color: var(--navy); white-space: nowrap;
 }
-.pb-logos { display: inline-flex; align-items: center; gap: 20px; }
-.pb-logos .pb-aramex { height: 24px; width: auto; }
-.pb-logos .pb-ups { height: 42px; width: auto; }
-.pb-divider { width: 1px; height: 34px; background: var(--line); }
+.pb-logos { display: inline-flex; align-items: center; gap: 13px; }
+.pb-logos .pb-aramex { height: 15px; width: auto; }
+.pb-logos .pb-ups { height: 24px; width: auto; }
+.pb-divider { width: 1px; height: 20px; background: var(--line); }
 .hero .partner-badge { margin-bottom: 4px; }
 section .partner-badge { box-shadow: var(--shadow); border: 1px solid var(--line); }
 @media (max-width: 640px) {
-  .partner-badge { padding: 12px 18px; gap: 14px; }
-  .pb-logos .pb-aramex { height: 19px; }
-  .pb-logos .pb-ups { height: 34px; }
+  .partner-badge { padding: 7px 14px; gap: 10px; }
+  .pb-logos .pb-aramex { height: 13px; }
+  .pb-logos .pb-ups { height: 21px; }
 }
