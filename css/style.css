@@ -525,3 +525,8 @@ section .partner-badge { box-shadow: var(--shadow); border: 1px solid var(--line
   .pb-logos .pb-aramex { height: 13px; }
   .pb-logos .pb-ups { height: 21px; }
 }
+
+/* Footer partner badge — transparent on dark background */
+footer.site-footer .partner-badge { background: transparent; box-shadow: none; border: 0; padding: 0; border-radius: 0; }
+footer.site-footer .partner-badge .pb-label { color: #cfd6e4; }
+footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
