@@ -537,3 +537,10 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
 .partner-badge-lg .pb-aramex { height: 20px; }
 .partner-badge-lg .pb-ups { height: 32px; }
 .partner-badge-lg .pb-divider { height: 27px; }
+
+/* Aramex flag-style logo: white wordmark on red box */
+.pb-aramex-chip {
+  background: #DC291E; border-radius: 6px; padding: 6px 10px;
+  display: inline-flex; align-items: center;
+}
+.pb-aramex-chip .pb-aramex { filter: brightness(0) invert(1); display: block; }
