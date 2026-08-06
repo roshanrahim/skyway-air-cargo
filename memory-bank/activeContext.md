@@ -1,11 +1,11 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 3 August 2026_
+_Last updated: 6 August 2026_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at **https://skywayaircargo.in**
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Six rounds of owner revisions completed (implementation/05–11). Highlights of current state:
+✅ Seven rounds of owner revisions completed (implementation/05–12). ALL photos real now. Highlights of current state:
 hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
 (names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
 number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
@@ -30,7 +30,7 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 1. ~~Phone number~~ ✅ DONE — +91 96454 87929 (28 Jul 2026)
 2. ~~WhatsApp number~~ ✅ DONE — same number
 3. ~~Rate tariff~~ — no longer needed: owner removed the rate calculator; quote page is a WhatsApp form only
-4. **Photos** — office + packing still placeholder (home gallery 2 tiles, About story photo); founders/team photo DONE
+4. ~~Photos~~ ✅ ALL DONE (founders + office + packing, 6 Aug 2026)
 5. ~~GSTIN~~ ✅ DONE — 32ALCPL6861B1ZH (30 Jul 2026); still pending: Aramex agent code (about.html chip shows AXXXXX)
 6. **Business email** → replace `info@skywaycargo.in` placeholder (footer + contact page)
 
@@ -40,7 +40,6 @@ Owner chose to **go live first with placeholders**, then supply real content aft
 - Verify Aramex franchise agreement wording rules ("Authorised Agent" vs "franchise")
 
 ## Known Placeholders Currently Visible on the Live Site
-- Gallery cards are styled placeholders with "replace with real photo" captions
 - Testimonials are representative samples, not real customer quotes — replace with real Google/JustDial reviews
 
 ## Owner Preferences Learned (apply to future edits)

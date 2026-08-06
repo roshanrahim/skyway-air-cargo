@@ -89,10 +89,16 @@
 - [x] Home gallery team tile → real founders photo
 - [x] HTTPS + custom domain fully live (Phase 9 closed)
 
+### Phase 11 — Facility Photos (3–6 August 2026)
+- [x] Real office photo (SKYWAY/Aramex/UPS signboard) — home gallery + About story box
+- [x] Real packing photo (Aramex warehouse) — home gallery
+- [x] Founders tile removed from home gallery; gallery now 2 real tiles
+- [x] 📸 ALL photo placeholders on the site are now real content
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
-- [ ] Real photos: facility + packing still pending (team/founders DONE 3 Aug)
+- [x] Real photos — ALL DONE (founders 3 Aug; office + packing 6 Aug)
 - [x] GSTIN done (32ALCPL6861B1ZH, 30 Jul 2026) — still pending: Aramex agent code on About chip (AXXXXX)
 - [ ] Real business email
 - [ ] Real customer testimonials

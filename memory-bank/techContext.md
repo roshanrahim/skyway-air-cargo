@@ -26,6 +26,7 @@ SKYWAY/
 ├── images/services/      # 10 Unsplash photos for services cards (incl. food collage tiles)
 ├── images/partners/      # official Aramex + UPS logos (badge component)
 ├── images/team/          # founders.jpg — real photo (emblem retouched out)
+├── images/facility/      # office.jpg + packing.jpg — real owner-supplied photos
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```
