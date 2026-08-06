@@ -399,7 +399,14 @@ footer.site-footer { background: var(--navy); color: #aab6cc; padding: 64px 0 0;
 }
 @media (max-width: 640px) {
   section { padding: 52px 0; }
-  .grid-2, .grid-3, .grid-4, .steps, .stats-row { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .steps { grid-template-columns: 1fr; }
+  .grid-4, .stats-row { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .stat { padding: 20px 10px; }
+  .stat .num { font-size: 1.6rem; }
+  .dest-flag { height: 86px; font-size: 2.4rem; }
+  .dest-flag img { width: 68px; }
+  .dest-body { padding: 14px 16px; }
+  .dest-body h3 { font-size: .92rem; }
   .quicktrack { grid-template-columns: 1fr; text-align: center; }
   .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
