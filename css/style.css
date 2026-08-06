@@ -559,3 +559,17 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
 /* Real photo inside gallery placeholder tiles */
 .ph-img .ph-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .ph-img .cap { position: relative; z-index: 2; }
+
+/* Compact top-bar partner badge (inner pages) */
+.partner-badge-sm { padding: 4px 12px; gap: 10px; border-radius: 30px; box-shadow: none; }
+.partner-badge-sm .pb-label { font-size: .6rem; gap: 5px; letter-spacing: .07em; }
+.partner-badge-sm .pb-label .tick { width: 13px; height: 13px; }
+.partner-badge-sm .pb-label .tick svg { width: 7px; height: 7px; }
+.partner-badge-sm .pb-logos { gap: 9px; }
+.partner-badge-sm .pb-aramex-chip { padding: 3px 7px; border-radius: 4px; }
+.partner-badge-sm .pb-aramex { height: 10px; }
+.partner-badge-sm .pb-ups { height: 18px; }
+.partner-badge-sm .pb-divider { height: 15px; }
+@media (max-width: 640px) {
+  .partner-badge-sm { padding: 3px 10px; }
+}
