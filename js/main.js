@@ -99,3 +99,36 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+/* ---- Horizontal card carousels ---- */
+document.addEventListener("DOMContentLoaded", function () {
+  function glide(el, delta) {
+    var start = el.scrollLeft;
+    var max = el.scrollWidth - el.clientWidth;
+    var target = Math.max(0, Math.min(max, start + delta));
+    var t0 = null;
+    var moved = false;
+    function frame(ts) {
+      if (t0 === null) t0 = ts;
+      moved = true;
+      var p = Math.min(1, (ts - t0) / 380);
+      var ease = 1 - Math.pow(1 - p, 3);
+      el.scrollLeft = start + (target - start) * ease;
+      if (p < 1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+    setTimeout(function () { if (!moved) el.scrollLeft = target; }, 150);
+  }
+  document.querySelectorAll(".carousel-wrap").forEach(function (wrap) {
+    var track = wrap.querySelector(".carousel");
+    if (!track) return;
+    var step = function () {
+      var card = track.querySelector(".card");
+      return card ? card.getBoundingClientRect().width + 20 : track.clientWidth * 0.8;
+    };
+    var prev = wrap.querySelector(".car-prev");
+    var next = wrap.querySelector(".car-next");
+    if (prev) prev.addEventListener("click", function () { glide(track, -step()); });
+    if (next) next.addEventListener("click", function () { glide(track, step()); });
+  });
+});

@@ -573,3 +573,42 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
 @media (max-width: 640px) {
   .partner-badge-sm { padding: 3px 10px; }
 }
+
+/* Top-bar badge — transparent on navy */
+.topbar .partner-badge { background: transparent; box-shadow: none; border: 0; }
+.topbar .pb-label { color: #cfd6e4; }
+.topbar .pb-divider { background: rgba(255, 255, 255, .28); }
+
+/* ---------- Horizontal card carousels ---------- */
+.carousel-wrap { position: relative; }
+.carousel {
+  display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding: 8px 4px 20px; -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar { display: none; }
+.carousel .card { flex: 0 0 300px; scroll-snap-align: start; }
+.mini-img { height: 130px; border-radius: 10px; overflow: hidden; margin-bottom: 16px; }
+.mini-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.card:hover .mini-img img { transform: scale(1.05); }
+.car-btn {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 6;
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line);
+  background: #fff; color: var(--red); font-size: 1.7rem; line-height: 1;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  box-shadow: 0 6px 18px rgba(20, 28, 43, .18); transition: all .2s ease;
+  padding: 0 0 4px;
+}
+.car-btn:hover { background: var(--red); color: #fff; border-color: var(--red); }
+.car-prev { left: -16px; }
+.car-next { right: -16px; }
+@media (max-width: 992px) {
+  .carousel .card { flex: 0 0 280px; }
+}
+@media (max-width: 640px) {
+  .carousel { gap: 14px; }
+  .carousel .card { flex: 0 0 78vw; max-width: 320px; }
+  .car-btn { width: 38px; height: 38px; font-size: 1.4rem; }
+  .car-prev { left: -8px; }
+  .car-next { right: -8px; }
+}
