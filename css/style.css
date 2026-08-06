@@ -612,9 +612,3 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .car-prev { left: -8px; }
   .car-next { right: -8px; }
 }
-
-/* Testimonial cards inside carousel */
-.carousel .testi { flex: 0 0 360px; scroll-snap-align: start; }
-@media (max-width: 640px) {
-  .carousel .testi { flex: 0 0 80vw; max-width: 340px; }
-}
