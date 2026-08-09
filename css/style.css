@@ -645,10 +645,10 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .hero p.lead { font-size: .92rem; margin-bottom: 18px; line-height: 1.55; }
   .hero-actions { gap: 10px; }
   .hero-actions .btn { padding: 11px 20px; font-size: .88rem; }
-  .quicktrack { margin-top: -38px; padding: 16px 18px; gap: 8px; }
-  .quicktrack label { font-size: .95rem; justify-content: center; }
-  .quicktrack p { font-size: .8rem !important; }
-  .quicktrack .btn { padding: 11px 20px; font-size: .88rem; }
+  .quicktrack { margin-top: -34px; padding: 12px 14px; gap: 6px; border-radius: 12px; }
+  .quicktrack label { font-size: .88rem; justify-content: center; }
+  .quicktrack p { font-size: .74rem !important; margin: 0; }
+  .quicktrack .btn { padding: 10px 18px; font-size: .84rem; justify-content: center; width: auto; margin: 2px auto 0; }
 
   /* Compact footer */
   footer.site-footer { padding: 34px 0 0; font-size: .8rem; }
