@@ -653,19 +653,22 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   /* Compact footer with accordions */
   footer.site-footer { padding: 34px 0 0; font-size: .8rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 6px; padding-bottom: 22px; }
-  .footer-grid h4 { font-size: .9rem; margin-bottom: 0; }
-  .f-col h4 {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 10px 0; cursor: pointer; border-bottom: 1px solid rgba(255, 255, 255, .1);
+  .footer-grid h4 { font-size: .88rem; margin-bottom: 0; }
+  .f-acc-bar {
+    display: flex; gap: 20px; align-items: center; justify-content: flex-start;
+    padding: 12px 0 10px; border-bottom: 1px solid rgba(255, 255, 255, .12);
   }
-  .f-col h4::after {
-    content: "▾"; color: var(--gold); font-size: .85rem;
+  .f-acc-bar h4 {
+    display: inline-flex; align-items: center; gap: 5px;
+    cursor: pointer; white-space: nowrap;
+  }
+  .f-acc-bar h4::after {
+    content: "▾"; color: var(--gold); font-size: .8rem;
     transform: rotate(-90deg); transition: transform .25s ease;
   }
-  .f-col.open h4::after { transform: rotate(0); }
-  .f-col > *:not(h4) { display: none; }
-  .f-col.open > *:not(h4) { display: block; }
-  .f-col.open { padding-bottom: 8px; }
+  .f-acc-bar h4.open::after { transform: rotate(0); }
+  .f-acc-panels > div { display: none; padding: 10px 0 4px; }
+  .f-acc-panels > div.open { display: block; }
   .footer-grid a { padding: 2px 0; }
   .footer-logo { margin-bottom: 8px; }
   .footer-logo svg { height: 36px; }

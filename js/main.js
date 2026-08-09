@@ -100,17 +100,33 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-/* ---- Footer accordions (phone) ---- */
+/* ---- Footer accordions (phone): heading row + full-width panels ---- */
 document.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("footer .footer-grid > div").forEach(function (col) {
+  if (window.innerWidth > 640) return;
+  var grid = document.querySelector("footer .footer-grid");
+  if (!grid) return;
+  var bar = document.createElement("div");
+  bar.className = "f-acc-bar";
+  var panels = document.createElement("div");
+  panels.className = "f-acc-panels";
+  var pairs = [];
+  Array.prototype.slice.call(grid.children).forEach(function (col) {
     var h = col.querySelector("h4");
     if (!h) return;
-    col.classList.add("f-col");
+    bar.appendChild(h);
+    var panel = document.createElement("div");
+    while (col.firstChild) panel.appendChild(col.firstChild);
+    panels.appendChild(panel);
+    grid.removeChild(col);
+    pairs.push([h, panel]);
     h.addEventListener("click", function () {
-      if (window.innerWidth > 640) return;
-      col.classList.toggle("open");
+      var isOpen = panel.classList.contains("open");
+      pairs.forEach(function (pr) { pr[0].classList.remove("open"); pr[1].classList.remove("open"); });
+      if (!isOpen) { h.classList.add("open"); panel.classList.add("open"); }
     });
   });
+  grid.appendChild(bar);
+  grid.appendChild(panels);
 });
 
 /* ---- Horizontal card carousels ---- */
