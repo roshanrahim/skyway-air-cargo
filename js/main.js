@@ -60,6 +60,72 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  /* ---- Destinations map: hover routes + quote link ---- */
+  var wm = document.querySelector(".world-map");
+  if (wm) {
+    var HOME = { x: 71.19, y: 44.44 };
+    var svgNS = "http://www.w3.org/2000/svg";
+    var overlay = document.createElementNS(svgNS, "svg");
+    overlay.setAttribute("class", "wm-routes");
+    overlay.setAttribute("viewBox", "0 0 100 100");
+    overlay.setAttribute("preserveAspectRatio", "none");
+    var route = document.createElementNS(svgNS, "path");
+    route.setAttribute("class", "wm-route");
+    route.setAttribute("pathLength", "100");
+    overlay.appendChild(route);
+    wm.appendChild(overlay);
+
+    var pop = document.createElement("div");
+    pop.className = "map-pop";
+    var popLink = document.createElement("a");
+    pop.appendChild(popLink);
+    wm.appendChild(pop);
+
+    var hideT = null;
+    function hide() {
+      route.classList.remove("show");
+      pop.classList.remove("show");
+      wm.querySelectorAll(".map-pin.active").forEach(function (x) { x.classList.remove("active"); });
+    }
+    function scheduleHide() { hideT = setTimeout(hide, 350); }
+    function cancelHide() { if (hideT) { clearTimeout(hideT); hideT = null; } }
+
+    pop.addEventListener("mouseenter", cancelHide);
+    pop.addEventListener("mouseleave", scheduleHide);
+    document.addEventListener("click", function (e) { if (!wm.contains(e.target)) hide(); });
+
+    wm.querySelectorAll(".map-pin:not(.pin-home)").forEach(function (pin) {
+      var x = parseFloat(pin.style.left);
+      var y = parseFloat(pin.style.top);
+      var name = pin.querySelector("i") ? pin.querySelector("i").textContent.trim() : "";
+      function show() {
+        cancelHide();
+        var cx = (HOME.x + x) / 2;
+        var cy = Math.max(3, Math.min(HOME.y, y) - 16);
+        route.setAttribute("d", "M " + HOME.x + " " + HOME.y + " Q " + cx + " " + cy + " " + x + " " + y);
+        route.classList.add("show");
+        popLink.innerHTML = "✈ Check rates for <b>" + name + "</b> →";
+        popLink.href = "quote.html?dest=" + encodeURIComponent(name);
+        pop.style.left = x + "%";
+        pop.style.top = y + "%";
+        pop.classList.toggle("below", y < 26);
+        pop.classList.add("show");
+        wm.querySelectorAll(".map-pin.active").forEach(function (p2) { p2.classList.remove("active"); });
+        pin.classList.add("active");
+      }
+      pin.addEventListener("mouseenter", show);
+      pin.addEventListener("mouseleave", scheduleHide);
+      pin.addEventListener("click", function (e) { e.stopPropagation(); show(); });
+    });
+  }
+
+  /* ---- Quote page: prefill destination from ?dest= ---- */
+  var destField = document.getElementById("q-dest");
+  if (destField) {
+    var qd = new URLSearchParams(window.location.search).get("dest");
+    if (qd) destField.value = qd;
+  }
+
   /* ---- Quote request form → WhatsApp ---- */
   var quoteForm = document.getElementById("quote-form");
   if (quoteForm) {
