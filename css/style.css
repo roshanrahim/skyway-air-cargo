@@ -784,3 +784,25 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .f-acc-panels a { padding: 4px 0; }
   .footer-bottom { flex-direction: column; align-items: center; gap: 3px; }
 }
+
+/* ---------- Hero checklist points ---------- */
+.lead-short { margin-bottom: 18px !important; }
+.hero-points {
+  display: grid; grid-template-columns: repeat(2, auto); gap: 10px 30px;
+  margin: 0 0 28px; justify-content: start;
+}
+.hero-points li {
+  display: flex; align-items: center; gap: 9px;
+  color: #dde4f0; font-size: .96rem; font-weight: 600; white-space: nowrap;
+}
+.hero-points li::before {
+  content: "✓"; width: 19px; height: 19px; border-radius: 50%; flex: none;
+  background: rgba(37, 211, 102, .16); border: 1px solid rgba(74, 222, 128, .4);
+  color: #4ade80; font-size: .68rem; font-weight: 800;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+@media (max-width: 640px) {
+  .lead-short { margin-bottom: 14px !important; }
+  .hero-points { justify-content: center; gap: 8px 20px; margin-bottom: 20px; }
+  .hero-points li { font-size: .86rem; }
+}
