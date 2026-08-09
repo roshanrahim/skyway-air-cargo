@@ -62,7 +62,8 @@ section { padding: 72px 0; }
 
 /* ---------- Top bar ---------- */
 .topbar { background: var(--navy); color: #cfd6e4; font-size: .82rem; }
-.topbar-inner { display: flex; justify-content: space-between; align-items: center; gap: 14px; padding: 8px 0; flex-wrap: wrap; }
+.topbar-inner { display: flex; align-items: center; gap: 20px; padding: 7px 0; flex-wrap: wrap; }
+.tb-badge { margin-left: auto; }
 .topbar a { color: #fff; font-weight: 600; }
 .topbar a:hover { color: var(--gold); }
 .topbar .tb-group { display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
@@ -623,4 +624,57 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .car-btn { width: 38px; height: 38px; font-size: 1.4rem; }
   .car-prev { left: -8px; }
   .car-next { right: -8px; }
+}
+
+/* ============================================================
+   Phone refinements: header lines, compact hero, compact footer
+   ============================================================ */
+@media (max-width: 640px) {
+  /* Top bar: numbers + badge on line 1, hours on line 2 (left) */
+  .topbar { font-size: .67rem; }
+  .topbar-inner { padding: 4px 0; gap: 3px 6px; }
+  .tb-phones { order: 1; }
+  .tb-hours { order: 2; margin-left: auto; }
+  .tb-badge { order: 3; width: 100%; margin-left: 0; }
+  .topbar .tb-group { gap: 6px; }
+  .partner-badge-sm { padding: 2px 0; gap: 6px; }
+  .partner-badge-sm .pb-label { font-size: .54rem; gap: 4px; letter-spacing: .04em; }
+  .partner-badge-sm .pb-label .tick { width: 10px; height: 10px; }
+  .partner-badge-sm .pb-logos { gap: 5px; }
+  .partner-badge-sm .pb-aramex-chip { padding: 2px 5px; border-radius: 3px; }
+  .partner-badge-sm .pb-aramex { height: 8px; }
+  .partner-badge-sm .pb-ups { height: 14px; }
+  .partner-badge-sm .pb-divider { height: 10px; }
+
+  /* Compact hero: badge, heading, text, buttons all higher */
+  .hero { padding: 22px 0 0; }
+  .hero-grid { padding-bottom: 54px; gap: 0; }
+  .hero .partner-badge { margin-bottom: 0; padding: 7px 14px; gap: 10px; }
+  .hero .partner-badge .pb-label { font-size: .62rem; }
+  .hero .partner-badge .pb-aramex { height: 12px; }
+  .hero .partner-badge .pb-ups { height: 20px; }
+  .hero .partner-badge .pb-divider { height: 16px; }
+  .hero h1 { font-size: 1.72rem; margin: 12px 0 10px; }
+  .hero p.lead { font-size: .92rem; margin-bottom: 18px; line-height: 1.55; }
+  .hero-actions { gap: 10px; }
+  .hero-actions .btn { padding: 11px 20px; font-size: .88rem; }
+  .quicktrack { margin-top: -38px; padding: 16px 18px; gap: 8px; }
+  .quicktrack label { font-size: .95rem; justify-content: center; }
+  .quicktrack p { font-size: .8rem !important; }
+  .quicktrack .btn { padding: 11px 20px; font-size: .88rem; }
+
+  /* Compact footer */
+  footer.site-footer { padding: 34px 0 0; font-size: .8rem; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 18px 14px; padding-bottom: 22px; }
+  .footer-grid > div:first-child, .footer-grid > div:last-child { grid-column: 1 / -1; }
+  .footer-grid h4 { font-size: .9rem; margin-bottom: 8px; }
+  .footer-grid a { padding: 2px 0; }
+  .footer-logo { margin-bottom: 8px; }
+  .footer-logo svg { height: 36px; }
+  footer.site-footer .partner-badge { margin-top: 8px !important; gap: 10px; }
+  footer.site-footer .pb-label { font-size: .6rem; }
+  footer.site-footer .pb-aramex { height: 11px; }
+  footer.site-footer .pb-ups { height: 18px; }
+  footer.site-footer .pb-divider { height: 13px; }
+  .footer-bottom { padding: 12px 0; font-size: .72rem; justify-content: center; text-align: center; gap: 4px; }
 }
