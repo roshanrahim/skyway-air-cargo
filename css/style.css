@@ -686,3 +686,6 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   -webkit-background-clip: text; background-clip: text;
   -webkit-text-fill-color: transparent; color: var(--navy);
 }
+
+/* Smaller card photos (Shipping Made Simple) */
+.mini-sm { height: 96px; }
