@@ -95,13 +95,25 @@
 - [x] Founders tile removed from home gallery; gallery now 2 real tiles
 - [x] 📸 ALL photo placeholders on the site are now real content
 
+### Phase 12 — Testimonials, Header Rework, Carousels, World Map, Mobile Premium (6–10 Aug 2026)
+- [x] 🎉 4 REAL JustDial testimonials (owner-supplied text) — 2×2 grid; half-star CSS glyph
+- [x] Top bar moved into sticky header (all pages); hidden entirely on phones per owner
+- [x] Core Services + Shipping Made Simple → swipe carousels with tappable pagination dots
+- [x] Shipping Made Simple: small real photos (images/why/)
+- [x] Blog/advisories removed everywhere; About team section removed
+- [x] Email skywayaircargo@gmail.com; Chirangara Road; fuel charges wording
+- [x] Destinations: pinned world map (lat/lon-accurate flag pins + Kochi home pin) + flag chips
+- [x] Mobile premium pass: centred hero + checklist points, compact track box/CTA/footer,
+      one-line footer accordions, centred reviews banner
+- [x] Cache busting for CSS/JS (?v=N — bump on every edit!)
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)
 - [x] Real photos — ALL DONE (founders 3 Aug; office + packing 6 Aug)
 - [x] GSTIN done (32ALCPL6861B1ZH, 30 Jul 2026) — still pending: Aramex agent code on About chip (AXXXXX)
-- [ ] Real business email
-- [ ] Real customer testimonials
+- [x] Real business email — skywayaircargo@gmail.com (9 Aug)
+- [x] Real customer testimonials — 4 JustDial reviews (10 Aug)
 
 ## 🔮 Planned / Ideas
 - [x] Custom domain — skywayaircargo.in purchased; connection in progress (see Phase 9)

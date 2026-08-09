@@ -27,6 +27,8 @@ SKYWAY/
 ├── images/partners/      # official Aramex + UPS logos (badge component)
 ├── images/team/          # founders.jpg — real photo (emblem retouched out)
 ├── images/facility/      # office.jpg + packing.jpg — real owner-supplied photos
+├── images/why/           # small photos for Shipping Made Simple cards
+├── images/worldmap.png   # equirectangular world map (destinations pin map)
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```
@@ -41,6 +43,11 @@ SKYWAY/
 - `js/main.js` top: `SKYWAY_PHONE` and `SKYWAY_WHATSAPP` — stamps every call/WhatsApp link site-wide via `data-phone-link` / `data-wa-link` attributes.
 - `js/main.js` `RATES` object: per-zone tariff `{first: ₹ for first 0.5kg, addl: ₹ per extra 0.5kg, days: transit}`.
 - `css/style.css` `:root` variables: brand colours, fonts, radii.
+
+## Cache Busting (IMPORTANT)
+`style.css` and `main.js` are referenced with `?v=N` query strings. **Bump the version in all
+10 HTML files every time you edit either file** (`sed -i '' 's|v=N|v=N+1|' *.html`) or phones
+will serve stale cached assets.
 
 ## Important Notes
 - Header/nav/footer are **duplicated across all 10 pages** (originally generated from a template script). A change to nav/header/footer must be applied to every page — find-and-replace across `*.html`.

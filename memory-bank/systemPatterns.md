@@ -37,3 +37,16 @@ No on-site tracking form: all "Track" buttons are plain links to the official Ar
 
 ## Payment Icons Pattern
 Home page "Payments" section: `.pay-icons` row of `.pay-circle` round badges (social-media-icon style), icons only, no captions — Google Pay (white/G), PhonePe (purple/पे), UPI (white/chevrons), Bank Transfer (navy/bank glyph). Single line at all widths (flex-wrap: nowrap).
+
+## Carousel Pattern (home)
+`.carousel-wrap > .car-btn.car-prev + .carousel + .car-btn.car-next` (+ JS-generated `.car-dots`).
+JS (main.js): custom rAF `glide()` scrolling (instant fallback if rAF frozen), dots synced by
+nearest-card-to-centre. Mobile: arrows hidden, cards 82vw snap-center, dots are the navigation.
+
+## Phone Footer Accordion Pattern
+JS (≤640 at load) rebuilds footer columns: h4s → `.f-acc-bar` (one centred line, gold ▾ arrows),
+contents → `.f-acc-panels` full-width panels; single-open toggle. Desktop untouched.
+
+## Mobile Verification Pattern
+Test with an iframe harness fixed at 390px width + JS getBoundingClientRect assertions.
+Screenshots may be stale in the occluded automation window — trust measurements.
