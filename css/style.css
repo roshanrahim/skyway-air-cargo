@@ -748,3 +748,39 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .dest-chip { font-size: .8rem; padding: 6px 12px; }
   .dest-chip img { width: 18px; }
 }
+
+/* ---------- Carousel pagination dots ---------- */
+.car-dots { display: flex; gap: 8px; justify-content: center; padding: 2px 0 4px; }
+.car-dot {
+  width: 8px; height: 8px; border-radius: 8px; border: 0; padding: 0;
+  background: #d6dbe3; cursor: pointer; transition: all .3s ease;
+}
+.car-dot.active { background: var(--red); width: 24px; }
+
+/* ---------- Mobile premium alignment pass ---------- */
+@media (max-width: 640px) {
+  /* Hero: centered composition */
+  .hero-grid > div { text-align: center; }
+  .hero p.lead { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
+
+  /* Carousels: swipe cards, dots instead of arrows */
+  .car-btn { display: none; }
+  .carousel { padding: 8px 6vw 16px; gap: 14px; }
+  .carousel .card { flex: 0 0 82vw; max-width: 340px; scroll-snap-align: center; }
+
+  /* Google reviews banner: centered */
+  .greview-banner { flex-direction: column; gap: 10px; padding: 20px 18px; }
+  .greview-banner div { text-align: center !important; }
+  .greview-banner .btn { margin: 0 auto; }
+
+  /* Footer: centered brand block, tidy rhythm */
+  .footer-grid > div:first-child { text-align: center; }
+  .footer-logo svg { margin: 0 auto; }
+  footer.site-footer .partner-badge { justify-content: center; }
+  .footer-grid > div:first-child p { max-width: 300px; margin-left: auto; margin-right: auto; }
+  .f-acc-bar { justify-content: center; gap: 24px; }
+  .f-acc-panels > div { text-align: center; }
+  .f-acc-panels a { padding: 4px 0; }
+  .footer-bottom { flex-direction: column; align-items: center; gap: 3px; }
+}

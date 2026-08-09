@@ -159,5 +159,41 @@ document.addEventListener("DOMContentLoaded", function () {
     var next = wrap.querySelector(".car-next");
     if (prev) prev.addEventListener("click", function () { glide(track, -step()); });
     if (next) next.addEventListener("click", function () { glide(track, step()); });
+
+    /* pagination dots */
+    var cards = track.querySelectorAll(".card, .testi");
+    if (cards.length > 1) {
+      var dots = document.createElement("div");
+      dots.className = "car-dots";
+      var dotEls = [];
+      cards.forEach(function (card, i) {
+        var d = document.createElement("button");
+        d.type = "button";
+        d.className = "car-dot" + (i === 0 ? " active" : "");
+        d.setAttribute("aria-label", "Go to card " + (i + 1));
+        d.addEventListener("click", function () {
+          var target = card.offsetLeft - (track.clientWidth - card.clientWidth) / 2;
+          glide(track, target - track.scrollLeft);
+        });
+        dots.appendChild(d);
+        dotEls.push(d);
+      });
+      wrap.appendChild(dots);
+      var syncT = null;
+      track.addEventListener("scroll", function () {
+        if (syncT) return;
+        syncT = setTimeout(function () {
+          syncT = null;
+          var center = track.scrollLeft + track.clientWidth / 2;
+          var best = 0, bestDist = Infinity;
+          cards.forEach(function (card, i) {
+            var c = card.offsetLeft + card.clientWidth / 2;
+            var dist = Math.abs(c - center);
+            if (dist < bestDist) { bestDist = dist; best = i; }
+          });
+          dotEls.forEach(function (d, i) { d.classList.toggle("active", i === best); });
+        }, 80);
+      });
+    }
   });
 });
