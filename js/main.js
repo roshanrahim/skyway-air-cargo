@@ -100,6 +100,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+/* ---- Footer accordions (phone) ---- */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("footer .footer-grid > div").forEach(function (col) {
+    var h = col.querySelector("h4");
+    if (!h) return;
+    col.classList.add("f-col");
+    h.addEventListener("click", function () {
+      if (window.innerWidth > 640) return;
+      col.classList.toggle("open");
+    });
+  });
+});
+
 /* ---- Horizontal card carousels ---- */
 document.addEventListener("DOMContentLoaded", function () {
   function glide(el, delta) {
