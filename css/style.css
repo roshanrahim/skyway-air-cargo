@@ -632,10 +632,10 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
 @media (max-width: 640px) {
   /* Top bar: numbers + badge on line 1, hours on line 2 (left) */
   .topbar { font-size: .67rem; }
-  .topbar-inner { padding: 4px 0; gap: 3px 6px; }
-  .tb-phones { order: 1; }
-  .tb-hours { order: 2; margin-left: auto; }
-  .tb-badge { order: 3; width: 100%; margin-left: 0; }
+  .topbar-inner { display: grid; grid-template-columns: 1fr auto; padding: 4px 0; gap: 2px 8px; align-items: start; }
+  .tb-phones { grid-column: 1; grid-row: 1; }
+  .tb-hours { grid-column: 1; grid-row: 2; }
+  .tb-badge { grid-column: 2; grid-row: 1 / span 2; align-self: start; margin-left: 0; justify-self: end; }
   .topbar .tb-group { gap: 6px; }
   .partner-badge-sm { padding: 2px 0; gap: 6px; }
   .partner-badge-sm .pb-label { font-size: .54rem; gap: 4px; letter-spacing: .04em; }
