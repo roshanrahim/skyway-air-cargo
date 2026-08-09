@@ -679,3 +679,10 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   footer.site-footer .pb-divider { height: 13px; }
   .footer-bottom { padding: 12px 0; font-size: .72rem; justify-content: center; text-align: center; gap: 4px; }
 }
+
+/* Half-filled star (left half dark, right half light) */
+.half-star {
+  background: linear-gradient(90deg, currentColor 50%, #cdd3dc 50%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: var(--navy);
+}
