@@ -697,3 +697,54 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .cta-band p { font-size: .84rem; margin-bottom: 18px; }
   .cta-band .btn { padding: 10px 18px; font-size: .85rem; }
 }
+
+/* ---------- Destinations world map ---------- */
+.world-map {
+  position: relative; max-width: 1050px; margin: 0 auto 36px;
+  border-radius: var(--radius); overflow: hidden;
+  box-shadow: var(--shadow); border: 1px solid var(--line);
+}
+.wm-img { width: 100%; display: block; }
+.map-pin {
+  position: absolute; transform: translate(-50%, -100%);
+  display: flex; flex-direction: column; align-items: center; cursor: pointer;
+}
+.map-pin img {
+  width: 21px; height: 21px; object-fit: cover; border-radius: 50%;
+  border: 2px solid #fff; background: #fff; box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
+}
+.map-pin::after { content: ""; width: 2px; height: 6px; background: var(--red); border-radius: 1px; }
+.map-pin i {
+  position: absolute; top: 100%; margin-top: 2px; font-style: normal; white-space: nowrap;
+  font-size: .62rem; font-weight: 700; color: var(--navy);
+  background: rgba(255, 255, 255, .94); padding: 1px 7px; border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .25); opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 5;
+}
+.map-pin:hover i { opacity: 1; }
+.pin-home .home-dot {
+  width: 14px; height: 14px; background: var(--red); border: 3px solid #fff; border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(227, 6, 19, .25), 0 2px 6px rgba(0, 0, 0, .4);
+  animation: pinpulse 2s infinite;
+}
+.pin-home::after { display: none; }
+.pin-home i { opacity: 1; color: var(--red); }
+@keyframes pinpulse {
+  0% { box-shadow: 0 0 0 0 rgba(227, 6, 19, .45), 0 2px 6px rgba(0, 0, 0, .4); }
+  70% { box-shadow: 0 0 0 10px rgba(227, 6, 19, 0), 0 2px 6px rgba(0, 0, 0, .4); }
+  100% { box-shadow: 0 0 0 0 rgba(227, 6, 19, 0), 0 2px 6px rgba(0, 0, 0, .4); }
+}
+.dest-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.dest-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #fff; border: 1px solid var(--line); border-radius: 40px;
+  padding: 7px 15px; font-weight: 600; font-size: .88rem; box-shadow: var(--shadow);
+}
+.dest-chip img { width: 21px; height: auto; border-radius: 3px; }
+@media (max-width: 640px) {
+  .map-pin img { width: 13px; height: 13px; border-width: 1.5px; }
+  .map-pin::after { height: 4px; }
+  .pin-home .home-dot { width: 10px; height: 10px; border-width: 2px; }
+  .pin-home i { font-size: .5rem; }
+  .dest-chip { font-size: .8rem; padding: 6px 12px; }
+  .dest-chip img { width: 18px; }
+}
