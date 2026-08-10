@@ -838,3 +838,34 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
   .cred-panel { gap: 14px; }
   .cred-panel .license-chip { width: 100%; justify-content: center; padding: 14px 18px; }
 }
+/* ---------- Phone home refinement: rhythm, type scale, card sizing ---------- */
+@media (max-width: 640px) {
+  section { padding: 44px 0; }
+  .section-title { font-size: 1.42rem; padding-bottom: 12px; margin-bottom: 10px; }
+  .section-title::after { width: 44px; height: 3px; }
+  .kicker { font-size: .66rem; margin-bottom: 6px; }
+  .section-sub { font-size: .9rem; margin-bottom: 24px; padding: 0 8px; }
+
+  .stats-row { gap: 12px; }
+  .stat { padding: 18px 8px; border-radius: 12px; }
+  .stat .num { font-size: 1.5rem; }
+  .stat .lbl { font-size: .76rem; }
+
+  .carousel { padding: 6px 6vw 12px; }
+  .carousel .card { padding: 22px 20px; }
+  .card h3 { font-size: 1rem; }
+  .card p { font-size: .88rem; }
+  .mini-img { height: 116px; margin-bottom: 14px; }
+  .mini-sm { height: 88px; }
+  .car-dots { padding: 0 0 2px; gap: 7px; }
+
+  .testi { padding: 22px 18px; }
+  .testi p { font-size: .88rem; }
+  .greview-banner .gscore { font-size: 1.6rem; }
+
+  .ph-img { aspect-ratio: 16/10; }
+  .ph-img .cap { font-size: .78rem; padding: 9px 12px; }
+
+  .pay-circle { width: 50px; height: 50px; }
+  .pay-circle svg { height: 22px; }
+}
