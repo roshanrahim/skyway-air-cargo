@@ -833,27 +833,8 @@ footer.site-footer .pb-divider { background: rgba(255, 255, 255, .28); }
 }
 
 /* ---------- Credentials panel (About) ---------- */
-.cred-panel {
-  display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap;
-  background: linear-gradient(120deg, var(--navy) 0%, #23304a 55%, #3a2030 100%);
-  border-radius: 20px; padding: 38px 32px; box-shadow: var(--shadow-lg);
-  position: relative; overflow: hidden;
-}
-.cred-panel::before {
-  content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(ellipse 55% 65% at 85% 10%, rgba(227, 6, 19, .25), transparent 60%),
-              radial-gradient(ellipse 40% 50% at 8% 90%, rgba(245, 166, 35, .12), transparent 60%);
-}
-.cred-panel > * { position: relative; }
-.cred-panel .license-chip {
-  background: rgba(255, 255, 255, .07); border: 1px solid rgba(255, 255, 255, .16);
-  color: #fff; box-shadow: none; padding: 18px 26px; border-radius: 14px;
-  backdrop-filter: blur(4px);
-}
-.cred-panel .license-chip > span:first-child { font-size: 1.9rem !important; }
-.cred-panel .license-chip strong { color: #fff; font-size: 1.02rem; }
-.cred-panel .license-chip div span { color: #b9c3d6; font-size: .84rem; }
+.cred-panel { display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; }
 @media (max-width: 640px) {
-  .cred-panel { padding: 24px 16px; gap: 14px; }
+  .cred-panel { gap: 14px; }
   .cred-panel .license-chip { width: 100%; justify-content: center; padding: 14px 18px; }
 }
