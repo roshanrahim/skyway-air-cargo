@@ -29,6 +29,8 @@ SKYWAY/
 ├── images/facility/      # office.jpg + packing.jpg — real owner-supplied photos
 ├── images/why/           # small photos for Shipping Made Simple cards
 ├── images/worldmap.png   # equirectangular world map (destinations pin map)
+├── sitemap.xml           # 9 pages; submitted target for Search Console
+├── robots.txt            # allow all + sitemap pointer
 ├── memory-bank/          # Project knowledge (this folder)
 └── implementation/       # Phase-by-phase implementation records
 ```

@@ -107,6 +107,16 @@
       one-line footer accordions, centred reviews banner
 - [x] Cache busting for CSS/JS (?v=N — bump on every edit!)
 
+### Phase 13 — On-Page SEO & Interactive Map (10 Aug 2026)
+- [x] Interactive destinations map: hover/tap routes from Kochi + "Check rates" popup → quote prefill
+- [x] Complete on-page SEO: 68 owner-confirmed keywords — unique titles/metas/keywords all pages
+- [x] Canonicals, og:url, sitemap.xml, robots.txt; expanded JSON-LD (areaServed, geo, offers)
+- [x] Keyworded alt texts site-wide; services H1; home SEO block (owner-refined + downsized)
+- [x] Nav reorder (Home · Rates & Quote · Tracking · Services · Destinations · About · Contact · More)
+- [x] About: credentials above story, no-box layout; shorter inner-page hero banners
+- [x] Phone home rhythm/type-scale refinement; owner's hero copy edits
+- [x] Incident: personal folder briefly public → removed + .gitignore'd (lesson logged)
+
 ## ⏳ Pending (waiting on owner)
 - [x] Real phone + WhatsApp numbers: +91 96454 87929 (28 Jul 2026)
 - [x] ~~Rate tariff~~ — calculator removed; quote via WhatsApp form only (28 Jul 2026)

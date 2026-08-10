@@ -1,11 +1,16 @@
 # Active Context — Current State & Immediate Next Steps
 
-_Last updated: 10 August 2026_
+_Last updated: 10 August 2026 (SEO day)_
 
 ## Current State
 ✅ Website fully built (10 pages) and **LIVE** at **https://skywayaircargo.in**
 ✅ GitHub Pages hosting, auto-deploys on push to `main`.
-✅ Nine+ rounds of owner revisions completed (implementation/05–13). **SITE IS 100% REAL CONTENT — zero placeholders remain.** Real testimonials, photos, phones, email, GSTIN, addresses, domain. Highlights of current state:
+✅ Nine+ rounds of owner revisions completed (implementation/05–13). **SITE IS 100% REAL CONTENT + FULLY SEO-OPTIMISED.** Real testimonials, photos, phones,
+email, GSTIN, addresses, domain. On-page SEO complete (68 confirmed keywords, sitemap.xml,
+robots.txt, expanded JSON-LD). Interactive destinations map feeds the quote form.
+⚠️ Owner sometimes edits files directly in the folder — check `git status` before scripted
+edits and before `git add .` (personal folders are gitignored: "THINGS TO DO/").
+Owner's recommended next steps: Google Business Profile + Search Console sitemap submission. Highlights of current state:
 hero Earth + orbiting plane · 15+ countries / 2,000+ shipments stats · 16-country flag grid
 (names only) · icon-only Payments circles · tracking = link to aramex.com/in/en ("tracking
 number" wording) · blog has 3 posts · 5-card Shipping Made Simple · Customer Testimonials ★
